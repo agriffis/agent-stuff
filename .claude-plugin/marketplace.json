@@ -1,0 +1,17 @@
+{
+  "name": "agent-stuff",
+  "owner": {
+    "name": "Aron Griffis",
+    "email": "aron@scampersand.com"
+  },
+  "plugins": [
+    {
+      "name": "theme-watcher",
+      "source": "./claude/theme-watcher",
+      "description": "Follows ~/.claude/theme (written by ~/bin/scheme) and applies it as the Claude Code theme"
+    }
+  ],
+  "metadata": {
+    "description": "Aron's skills, extensions and mods for coding-agent harnesses"
+  }
+}

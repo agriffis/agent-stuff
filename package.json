@@ -1,0 +1,16 @@
+{
+  "name": "agent-stuff",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Aron's skills, extensions and mods for coding-agent harnesses",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./pi/extensions/*.ts"],
+    "skills": ["./skills"],
+    "themes": ["./pi/themes/*.json"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
